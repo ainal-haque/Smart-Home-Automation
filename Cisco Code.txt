@@ -1,0 +1,34 @@
+Router>en
+Router>enable 
+Router>enable 
+Router#config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#ip dh
+Router(config)#ip dhcp e
+Router(config)#ip dhcp excluded-address 192.168.1.1 192.168.1.5
+Router(config)#ip dhc
+Router(config)#ip dhcp po
+Router(config)#ip dhcp pool celltower
+Router(dhcp-config)#ne
+Router(dhcp-config)#network 192.168.1.0 255.255.255.0
+Router(dhcp-config)#de
+Router(dhcp-config)#default-router 192.168.1.1
+Router(dhcp-config)#dn
+Router(dhcp-config)#dns-server 192.168.2.2
+Router(dhcp-config)#exit
+Router(config)#
+Router(config)#ip dhc
+Router(config)#ip dhcp ex
+Router(config)#ip dhcp excluded-address 192.168.3.1 192.168.3.50
+Router(config)#ip dh
+Router(config)#ip dhcp po
+Router(config)#ip dhcp pool HG
+Router(dhcp-config)#ne
+Router(dhcp-config)#network 192.168.3.0 255.255.255.0
+Router(dhcp-config)#de
+Router(dhcp-config)#default-router 192.168.3.1
+Router(dhcp-config)#dn
+Router(dhcp-config)#dns-server 192.168.2.2
+Router(dhcp-config)#exit
+Router(config)#
+
